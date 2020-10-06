@@ -1,0 +1,12 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}
+div{
+    align-self: center;
+    width: 50%;
+    height: 50%;
+}
