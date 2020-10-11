@@ -1,7 +1,7 @@
 body{
     align-items: center;
     text-align: center;
-    background-color: aqua;
+    background-color:rgb(243, 171, 207);
     width: 50%;
     height: 50%;
 }
@@ -12,4 +12,13 @@ div{
 }
 .footer{
     text-align: left;
+}
+h1{
+    font-family: arial;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.photos{
+    border: solid black;
+    margin: 20px auto;
 }
