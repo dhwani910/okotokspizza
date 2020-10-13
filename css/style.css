@@ -22,3 +22,29 @@ h1{
     border: solid black;
     margin: 20px auto;
 }
+
+div p{
+    background-color: cornflowerblue;
+}
+
+div>h1{
+    text-decoration: underline;
+    
+}
+div a:link{
+    color: red;
+}
+div a:visited{
+    color: blue;
+}
+div a:hover{
+    color: yellow;
+}
+div a:active{
+    color: green;
+}
+div.cheese > div.double + div.single{
+    background-color: indigo;
+}
+
+
