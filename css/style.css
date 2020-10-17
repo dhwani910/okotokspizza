@@ -12,7 +12,10 @@ div{
 }
 .footer{
     text-align: left;
+    width: 150px;;
+   
 }
+
 h1{
     font-family: arial;
     text-decoration: underline;
@@ -46,5 +49,59 @@ div a:active{
 div.cheese > div.double + div.single{
     background-color: indigo;
 }
+div.pizza{
+    width: 800px;
+    text-align: center;
+}
+
+
+.transition{
+   height: 50px;
+    margin-left: 900px;
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.5s;
+
+}
+.transition:hover{
+    height: 70px;
+}
+@keyframes color{
+    20% {
+        background-color: grey;
+    }
+    60% {
+        background-color: skyblue;
+    }
+    90% {
+        background-color: royalblue;
+    }
+}
+.new{
+    
+    margin-left: 1100px;
+    background-color: tan;
+    
+
+}
+.new{
+    animation-name: color;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+.goodby{
+    margin-left: 1000px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+.goodby:hover{
+    width: 700px;
+}
+
 
 
